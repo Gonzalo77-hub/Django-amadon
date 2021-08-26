@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Amadon</title>
+</head>
+<body>
+    
+    <h1 class="Strong">Pedido Mas Reciente</h1>
+    <h3>Thank you for your business!</h3>
+    <p>We charged your credit card for $ {{order_last.total_price}}</p>
+    <p>You have ordered #{{order_last.quantity_ordered  }} items so far and spent $${{order_last.total_price}} with Amadon.com!</p>
+    <p><a href="/">Go Back</a></p>
+
+    <h1 class="Strong">Cantidad y Monto Total de Ordenes</h1>
+    <h3>Thank you for your business!</h3>
+    <p>We charged your credit card for $ {{orders_total_price.precio_total}}</p>
+    <p>You have ordered #{{order_total.Cantidad }} items so far and spent $${{orders_total_price.precio_total}} with Amadon.com!</p>
+    <p><a href="/">Go Back</a></p>
+   
+
+
+    
+
+</body>
+</html>
